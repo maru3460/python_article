@@ -13,6 +13,15 @@
 Python実行用ファイル:[Java初心者のためのPython×競技プログラミング入門Day3.ipynb](https://colab.research.google.com/drive/1bVs4U-iZvnR5KrvYTOjfkj5b11fy-L4N?usp=sharing)  
 各sectionはこのファイルに対応しています。  
 
+- [Java初心者のためのPython×競技プログラミング入門Day３](#java初心者のためのpython競技プログラミング入門day３)
+    - [前提条件](#前提条件)
+  - [A問題を解いてみる](#a問題を解いてみる)
+  - [標準入力 -\> section1](#標準入力---section1)
+  - [AtCorderについて](#atcorderについて)
+  - [Atcorder Problemsで提出してみる -\> section2](#atcorder-problemsで提出してみる---section2)
+  - [まとめ](#まとめ)
+
+
 ## A問題を解いてみる
 今日はAtCoderのA問題を触ってみようと思います。
 

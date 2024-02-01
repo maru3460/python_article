@@ -10,6 +10,15 @@
 
 Python実行用ファイル:[Java初心者のためのPython×競技プログラミング入門Day1.ipynb](https://colab.research.google.com/drive/15wbCui49Y9Ohb261tLlXNebwfoLTi4Cx?usp=sharing)
 
+- [Java初心者のためのPython×競技プログラミング入門Day1](#java初心者のためのpython競技プログラミング入門day1)
+		- [前提条件](#前提条件)
+	- [Pythonの魅力](#pythonの魅力)
+		- [初心者へのわかりやすさ](#初心者へのわかりやすさ)
+		- [実行の手軽さ](#実行の手軽さ)
+	- [実際に実行してみる](#実際に実行してみる)
+	- [まとめ](#まとめ)
+
+
 ## Pythonの魅力
 まず最初に、Pythonの魅力について書いていこうと思います。
 

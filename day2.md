@@ -13,6 +13,21 @@
 Python実行用ファイル:[Java初心者のためのPython×競技プログラミング入門Day2.ipynb](https://colab.research.google.com/drive/1d8luAEE1CpgQbvZRTvHU3xbfAdFGwAle?usp=sharing)  
 各sectionはこのファイルに対応しています。  
 
+- [Java初心者のためのPython×競技プログラミング入門Day2](#java初心者のためのpython競技プログラミング入門day2)
+		- [前提条件](#前提条件)
+	- [Pythonの基本的な文法](#pythonの基本的な文法)
+		- [標準出力 -\> section1](#標準出力---section1)
+		- [変数とデータ型 -\> section2](#変数とデータ型---section2)
+		- [コレクション -\> section3](#コレクション---section3)
+		    - [list](#list)
+  		    - [dict](#dict辞書)
+		- [制御構文 -\> section4](#制御構文---section4)
+			- [if](#if)
+			- [for](#for)
+			- [while](#while)
+	- [まとめ](#まとめ)
+
+
 ## Pythonの基本的な文法
 今日はPythonの基本的な文法について解説していこうと思います。
 
@@ -92,6 +107,9 @@ bool、辞書は現段階では使う予定がないため、省略していま�
 自分の年齢(int)を変数に入れたうえで、自己紹介文に付け加えてみましょう。  
 
 ### コレクション -> section3
+
+#### list
+
 まずはlistについてです。基本的な使い方はJavaのListと同じですが、作り方や関数が違ってきます。  
 ```java:List
 public class ListTest {
@@ -145,6 +163,8 @@ print(arr.pop(0))#削除時に値が返ってきます
 print(arr)
 ```
 覚えておく必要はないです。必要な時にこの記事を見返すか、調べて使いましょう。  
+
+#### dict(辞書)
 
 次に、辞書についてです。現時点では使う予定はないので、紹介のみしておきます。
 ```java:map
