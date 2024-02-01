@@ -10,8 +10,10 @@
  - googleのアカウントを持っている。
  - AtCorderのアカウントを持っている。持っていない方は[こちら](https://info.atcoder.jp/overview/contest/intro)を参考にしてください。
 
-Python実行用ファイル:[Java初心者のためのPython×競技プログラミング入門Day4.ipynb](https://colab.research.google.com/drive/1_WiZ3xOL3oJ9OKkRbdNa5Z43L78uB7T7?usp=sharing)  
+Python実行用ファイル:[Java初心者のためのPython×競技プログラミング入門Day4.ipynb](https://colab.research.google.com/drive/18hyferPW_lPXoeKPUgTwl5AixgY0KfVI?usp=sharing)  
 各sectionはこのファイルに対応しています。  
 
 ## 文字列操作、多次元配列について
 今日は文字列操作、多次元配列について解説していこうと思います。
+
+## 文字列操作について
