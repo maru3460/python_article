@@ -18,6 +18,7 @@ Python実行用ファイル:[Java初心者のためのPython×競技プログラ
   - [文字列操作、多次元配列について](#文字列操作多次元配列について)
   - [文字列操作について](#文字列操作について)
   - [多次元配列について](#多次元配列について)
+  - [まとめ](#まとめ)
 
 
 ## 文字列操作、多次元配列について
@@ -81,3 +82,101 @@ print(''.join(s_list))
 「abcdefg」からbcとefを取り出し、bcefとして表示してみましょう。  
 
 ## 多次元配列について
+次に、多次元配列についてです。名前だけ聞くと難しそうですが、listの中にlistを入れるだけです。例えとしては、オセロをコードで表す、とすると想像しやすいかもしれません。オセロの白と黒を1と0で表した横一列のlistが縦のlistに収まっている感じです。　　
+
+イメージ(3 x 3)
+```
+          list[0] = [0, 1, 0]
+list =  [ list[1] = [1, 0, 1] ]
+          list[2] = [0, 1, 0]  
+```
+っていう感じです。(こういうのうまく書けるツール知っている方いたら教えてください…)  
+というわけでコードにしてみます。  
+```java:list in list
+public class ListTest {
+
+	public static void main(String[] args) {		
+		List<List<Integer>> arr = new ArrayList<>();
+		
+		List<Integer> tmp1 = new ArrayList<>();
+		tmp1.add(1);
+		tmp1.add(2);
+		tmp1.add(3);
+		tmp1.add(4);
+		List<Integer> tmp2 = new ArrayList<>();
+		tmp2.add(5);
+		tmp2.add(6);
+		List<Integer> tmp3 = new ArrayList<>();
+		tmp3.add(7);
+		tmp3.add(8);
+		tmp3.add(9);
+		
+		arr.add(tmp1);
+		arr.add(tmp2);
+		arr.add(tmp3);
+		
+        //一個ずつ値を取り出す。
+		for(int i=0; i < arr.size(); i++) {
+			for(int j=0; j < arr.get(i).size(); j++) {
+				System.out.println(arr.get(i).get(j));
+			}
+		}
+		
+		arr.clear();
+		
+        //[x ^ 0, x ^ 1, x ^ 2]
+		for(int i=0; i < 10; i++) {
+			List<Integer> tmp = new ArrayList<>();
+			tmp.add(1);
+			tmp.add(i);
+			tmp.add(i * i);
+			arr.add(tmp);
+		}
+		
+		System.out.println(arr);
+		
+		//5の2乗は？
+		System.out.println(arr.get(5).get(2));
+
+		//3の0乗は？
+		System.out.println(arr.get(3).get(0));
+    }
+}
+```
+```python:list in list
+arr = [[1, 2, 3, 4], [5, 6], [7, 8, 9]]
+
+print(arr[0])
+print(arr[1])
+print(arr[2])
+
+#一個ずつ値を取り出す。
+for i in range(len(arr)):
+    for j in range(len(arr[i])):#ここもiにすると値がバグるので違う変数を使う
+        print(arr[i][j])#arrのi番目の要素であるリストの、j番目の値を表示する
+
+#[x ^ 0, x ^ 1, x ^ 2]
+arr = []
+for i in range(10):
+    tmp = [1, i, i ** 2]
+    arr.append(tmp)
+print(arr)
+
+#5の2乗は？
+print(arr[5][2])
+
+#3の0乗は？
+print(arr[3][0])
+```
+慣れない書き方だとは思いますが、使っていけばそのうち慣れます。.ipynbのほうにいくつか問題を用意しておいたので、解いてみてください。(３についてはすぐに答えを見てしまっても大丈夫です。)  
+ちなみに、\#一個ずつ値を取り出す。のところを言語化してみると
+```
+arrの大きさの分だけ以下繰り返す(現在の繰り返し回数はiで表す)
+    arr[i]の大きさの分だけ以下繰り返す(現在の繰り返し回数はjで表す)
+        arrに含まれるlistの内、i番目のlistのj番目の要素を取り出して表示する
+```
+となります。
+
+## まとめ
+今日は以上となります。疲れた人は[ねこ](https://www.youtube.com/watch?v=tgfGiTA1pek)でも見て癒されてください。  
+
