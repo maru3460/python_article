@@ -2,29 +2,17 @@
 本記事は、Javaの基本を学び終えた方に向けて、Pythonを使って競技プログラミングを始めてもらおうという趣旨の記事です。１週間でAtCorderのB問題(現時点で最新のABC338)(誘導あり)を解けるようにする、ということを目標として書いていきます。  
 言い訳：まだ業務未経験であり、歴も長くないため、間違っているところや勘違いについてはご容赦下さい。  
 初投稿のため、至らぬ点はぜひご指摘いただきたいです。
-前回：[Java初心者のためのPython×競技プログラミング入門Day5](#)
-次回：[Java初心者のためのPython×競技プログラミング入門Day7](#)
+前回：[Java初心者のためのPython×競技プログラミング入門Day5](https://qiita.com/maru3460/private/8b5f58f44081111d90ce)
+次回：[Java初心者のためのPython×競技プログラミング入門Day7](https://qiita.com/maru3460/private/b2af82d55d8330a353a0)
 
 ### 前提条件
- - Javaの基本がわかる。
- - googleのアカウントを持っている。
- - AtCorderのアカウントを持っている。持っていない方は[こちら](https://info.atcoder.jp/overview/contest/intro)を参考にしてください。
+ - Javaの基本がわかる
+ - googleのアカウントを持っている
+ - AtCorderのアカウントを持っている。持っていない方は[こちら](https://info.atcoder.jp/overview/contest/intro)を参考にしてください
 
 Python実行用ファイル:[Java初心者のためのPython×競技プログラミング入門Day6.ipynb](https://colab.research.google.com/drive/1lXBuIgEX_Z6kqcpK8jk5g2KUdD4ajYSe?usp=sharing)  
 各sectionはこのファイルに対応しています。  
 [github](https://github.com/maru3460/python_article)：記事含め、ソースコードが置いてあります。  
-
-- [Java初心者のためのPython×競技プログラミング入門Day6](#java初心者のためのpython競技プログラミング入門day6)
-    - [前提条件](#前提条件)
-  - [問題に慣れる](#問題に慣れる)
-  - [ABC324 B問題 -\> section1](#abc324-b問題---section1)
-    - [準備](#準備)
-    - [アルゴリズム](#アルゴリズム)
-    - [解く](#解く)
-  - [ABC335 B問題 -\> section2](#abc335-b問題---section2)
-    - [アルゴリズム](#アルゴリズム-1)
-    - [解く](#解く-1)
-  - [まとめ](#まとめ)
 
 ## 問題に慣れる
 今日は問題に慣れるために、実際に問題を解いていこうと思います。 

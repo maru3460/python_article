@@ -2,32 +2,17 @@
 本記事は、Javaの基本を学び終えた方に向けて、Pythonを使って競技プログラミングを始めてもらおうという趣旨の記事です。１週間でAtCorderのB問題(現時点で最新のABC338)(誘導あり)を解けるようにする、ということを目標として書いていきます。  
 言い訳：まだ業務未経験であり、歴も長くないため、間違っているところや勘違いについてはご容赦下さい。  
 初投稿のため、至らぬ点はぜひご指摘いただきたいです。
-前回：[Java初心者のためのPython×競技プログラミング入門Day1](#)
-次回：[Java初心者のためのPython×競技プログラミング入門Day3](#)
+前回：[Java初心者のためのPython×競技プログラミング入門Day1](https://qiita.com/maru3460/private/2b42d78890b6f001d789)
+次回：[Java初心者のためのPython×競技プログラミング入門Day3](https://qiita.com/maru3460/private/ae9cab608affad804cd7)
 
 ### 前提条件
- - Javaの基本がわかる。
- - googleのアカウントを持っている。
- - AtCorderのアカウントを持っている。持っていない方は[こちら](https://info.atcoder.jp/overview/contest/intro)を参考にしてください。
+ - Javaの基本がわかる
+ - googleのアカウントを持っている
+ - AtCorderのアカウントを持っている。持っていない方は[こちら](https://info.atcoder.jp/overview/contest/intro)を参考にしてください
 
 Python実行用ファイル:[Java初心者のためのPython×競技プログラミング入門Day2.ipynb](https://colab.research.google.com/drive/1d8luAEE1CpgQbvZRTvHU3xbfAdFGwAle?usp=sharing)  
 各sectionはこのファイルに対応しています。  
 [github](https://github.com/maru3460/python_article)：記事含め、ソースコードが置いてあります。  
-
-- [Java初心者のためのPython×競技プログラミング入門Day2](#java初心者のためのpython競技プログラミング入門day2)
-		- [前提条件](#前提条件)
-	- [Pythonの基本的な文法](#pythonの基本的な文法)
-		- [標準出力 -\> section1](#標準出力---section1)
-		- [変数とデータ型 -\> section2](#変数とデータ型---section2)
-		- [コレクション -\> section3](#コレクション---section3)
-		    - [list](#list)
-  		    - [dict](#dict辞書)
-		- [制御構文 -\> section4](#制御構文---section4)
-			- [if](#if)
-			- [for](#for)
-			- [while](#while)
-	- [まとめ](#まとめ)
-
 
 ## Pythonの基本的な文法
 今日はPythonの基本的な文法について解説していこうと思います。

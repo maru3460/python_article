@@ -2,26 +2,17 @@
 本記事は、Javaの基本を学び終えた方に向けて、Pythonを使って競技プログラミングを始めてもらおうという趣旨の記事です。１週間でAtCorderのB問題(現時点で最新のABC338)(誘導あり)を解けるようにする、ということを目標として書いていきます。  
 言い訳：まだ業務未経験であり、歴も長くないため、間違っているところや勘違いについてはご容赦下さい。  
 初投稿のため、至らぬ点はぜひご指摘いただきたいです。
-前回：[Java初心者のためのPython×競技プログラミング入門Day2](#)
-次回：[Java初心者のためのPython×競技プログラミング入門Day4](#)
+前回：[Java初心者のためのPython×競技プログラミング入門Day2](https://qiita.com/maru3460/private/848b28a92719b86c8044)
+次回：[Java初心者のためのPython×競技プログラミング入門Day4](https://qiita.com/maru3460/private/36ee56dbf4d7b42e3d56)
 
 ### 前提条件
- - Javaの基本がわかる。
- - googleのアカウントを持っている。
- - AtCorderのアカウントを持っている。持っていない方は[こちら](https://info.atcoder.jp/overview/contest/intro)を参考にしてください。
+ - Javaの基本がわかる
+ - googleのアカウントを持っている
+ - AtCorderのアカウントを持っている。持っていない方は[こちら](https://info.atcoder.jp/overview/contest/intro)を参考にしてください
 
 Python実行用ファイル:[Java初心者のためのPython×競技プログラミング入門Day3.ipynb](https://colab.research.google.com/drive/1bVs4U-iZvnR5KrvYTOjfkj5b11fy-L4N?usp=sharing)  
 各sectionはこのファイルに対応しています。  
 [github](https://github.com/maru3460/python_article)：記事含め、ソースコードが置いてあります。  
-
-- [Java初心者のためのPython×競技プログラミング入門Day３](#java初心者のためのpython競技プログラミング入門day３)
-    - [前提条件](#前提条件)
-  - [A問題を解いてみる](#a問題を解いてみる)
-  - [標準入力 -\> section1](#標準入力---section1)
-  - [AtCorderについて](#atcorderについて)
-  - [Atcorder Problemsで提出してみる -\> section2](#atcorder-problemsで提出してみる---section2)
-  - [まとめ](#まとめ)
-
 
 ## A問題を解いてみる
 今日はAtCoderのA問題を触ってみようと思います。

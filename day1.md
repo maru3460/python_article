@@ -2,24 +2,16 @@
 本記事は、Javaの基本を学び終えた方に向けて、Pythonを使って競技プログラミングを始めてもらおうという趣旨の記事です。１週間でAtCorderのB問題(現時点で最新のABC338)(誘導あり)を解けるようにする、ということを目標として書いていきます。  
 言い訳：まだ業務未経験であり、歴も長くないため、間違っているところや勘違いについてはご容赦下さい。  
 初投稿のため、至らぬ点はぜひご指摘いただきたいです。
+次回：[Java初心者のためのPython×競技プログラミング入門Day2](https://qiita.com/maru3460/private/848b28a92719b86c8044)
 
 ### 前提条件
- - Javaの基本がわかる。
- - googleのアカウントを持っている。
- - AtCorderのアカウントを持っている。持っていない方は[こちら](https://info.atcoder.jp/overview/contest/intro)を参考にしてください。
+ - Javaの基本がわかる
+ - googleのアカウントを持っている
+ - AtCorderのアカウントを持っている。持っていない方は[こちら](https://info.atcoder.jp/overview/contest/intro)を参考にしてください
 
 Python実行用ファイル:[Java初心者のためのPython×競技プログラミング入門Day1.ipynb](https://colab.research.google.com/drive/15wbCui49Y9Ohb261tLlXNebwfoLTi4Cx?usp=sharing)
 各sectionはこのファイルに対応しています。  
 [github](https://github.com/maru3460/python_article)：記事含め、ソースコードが置いてあります。
-
-- [Java初心者のためのPython×競技プログラミング入門Day1](#java初心者のためのpython競技プログラミング入門day1)
-		- [前提条件](#前提条件)
-	- [Pythonの魅力](#pythonの魅力)
-		- [初心者へのわかりやすさ](#初心者へのわかりやすさ)
-		- [実行の手軽さ](#実行の手軽さ)
-	- [実際に実行してみる](#実際に実行してみる)
-	- [まとめ](#まとめ)
-
 
 ## Pythonの魅力
 まず最初に、Pythonの魅力について書いていこうと思います。
@@ -77,7 +69,7 @@ python hello_world.py
 
 ## 実際に実行してみる -> section1
 上記の説明でPythonの魅力は伝わった(?)と思うので、ここでは実際にコードを書いて実行してみようと思います。ここで準備していただきたいのがGoogleColaboratoryです。  
-新規 > その他 からファイルを作成できるのですが、現在はGoogleColaboratoryの項目がないと思います。そのため、新規 > その他 > アプリを追加　を押し、Colaboratoryを検索してインストールしてください。インストールが終わると 新規 > その他 にGoogleColaboratoryが追加されていると思います。こちらからファイルを作成すればそこにコードを書いて実行できます。  
+Google Driveにて、新規 > その他 からファイルを作成できるのですが、現在はGoogleColaboratoryの項目がないと思います。そのため、新規 > その他 > アプリを追加　を押し、Colaboratoryを検索してインストールしてください。インストールが終わると 新規 > その他 にGoogleColaboratoryが追加されていると思います。こちらからファイルを作成すればそこにコードを書いて実行できます。  
 
 以下の作業は[Java初心者のためのPython×競技プログラミング入門Day1.ipynb](https://colab.research.google.com/drive/15wbCui49Y9Ohb261tLlXNebwfoLTi4Cx?usp=sharing)から実行していただけるのですが、GoogleColaboratoryは今後の作業で使っていただきます。  
 
