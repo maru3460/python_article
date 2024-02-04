@@ -166,7 +166,7 @@ print(arr)
 
 #### dict(辞書)
 
-次に、辞書についてです。現時点では使う予定はないので、紹介のみしておきます。
+次に、辞書についてです。listと同じで型を指定する必要がなく、値へのアクセス方法もJavaと少し違います。
 ```java:map
 public class MapTest {
 
@@ -192,9 +192,16 @@ arr = {}#listは[]、dict（辞書)は{}をつかいます。
 arr['apple'] = 100
 arr['orange'] = 300
 
+#全てのキーと値の取り出し
 print(arr.items())
+
+#[キー]とするとそのキーに対応した値が返ってくる
 print(arr["apple"])
+
+#全てのキーの取り出し
 print(arr.keys())
+
+#全ての値の取り出し
 print(arr.values())
 
 #追加
@@ -205,7 +212,7 @@ print(arr.items())
 del arr['apple']
 print(arr.items())
 ```
-
+これも覚えておく必要はないです。必要な時にこの記事を見返すか、調べて使いましょう。 
 **課題３**
 実行した結果が、
 ```
