@@ -11,7 +11,8 @@
  - AtCorderのアカウントを持っている。持っていない方は[こちら](https://info.atcoder.jp/overview/contest/intro)を参考にしてください。
 
 Python実行用ファイル:[Java初心者のためのPython×競技プログラミング入門Day6.ipynb](https://colab.research.google.com/drive/1lXBuIgEX_Z6kqcpK8jk5g2KUdD4ajYSe?usp=sharing)  
-各sectionはこのファイルに対応しています。
+各sectionはこのファイルに対応しています。  
+[github](https://github.com/maru3460/python_article)：記事含め、ソースコードが置いてあります。  
 
 - [Java初心者のためのPython×競技プログラミング入門Day6](#java初心者のためのpython競技プログラミング入門day6)
     - [前提条件](#前提条件)

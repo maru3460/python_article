@@ -12,6 +12,7 @@
 
 Python実行用ファイル:[Java初心者のためのPython×競技プログラミング入門Day3.ipynb](https://colab.research.google.com/drive/1bVs4U-iZvnR5KrvYTOjfkj5b11fy-L4N?usp=sharing)  
 各sectionはこのファイルに対応しています。  
+[github](https://github.com/maru3460/python_article)：記事含め、ソースコードが置いてあります。  
 
 - [Java初心者のためのPython×競技プログラミング入門Day３](#java初心者のためのpython競技プログラミング入門day３)
     - [前提条件](#前提条件)

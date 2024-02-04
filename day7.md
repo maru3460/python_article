@@ -10,7 +10,8 @@
  - AtCorderのアカウントを持っている。持っていない方は[こちら](https://info.atcoder.jp/overview/contest/intro)を参考にしてください。
 
 Python実行用ファイル:[Java初心者のためのPython×競技プログラミング入門Day7.ipynb](https://colab.research.google.com/drive/1B0V6aDzuSNyY5slFeNxAakN7ZjpmGidu?usp=sharing)  
-各sectionはこのファイルに対応しています。
+各sectionはこのファイルに対応しています。  
+[github](https://github.com/maru3460/python_article)：記事含め、ソースコードが置いてあります。  
 
 ## 目標
 今日で最後です。最初に目標として掲げた問題を解いてみましょう。

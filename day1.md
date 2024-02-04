@@ -9,6 +9,8 @@
  - AtCorderのアカウントを持っている。持っていない方は[こちら](https://info.atcoder.jp/overview/contest/intro)を参考にしてください。
 
 Python実行用ファイル:[Java初心者のためのPython×競技プログラミング入門Day1.ipynb](https://colab.research.google.com/drive/15wbCui49Y9Ohb261tLlXNebwfoLTi4Cx?usp=sharing)
+各sectionはこのファイルに対応しています。  
+[github](https://github.com/maru3460/python_article)：記事含め、ソースコードが置いてあります。
 
 - [Java初心者のためのPython×競技プログラミング入門Day1](#java初心者のためのpython競技プログラミング入門day1)
 		- [前提条件](#前提条件)
@@ -73,7 +75,7 @@ python hello_world.py
 となります。  
 これはそこまで変わらないですが、ソースコードを指定すれば実行できるというのはとても分かりやすいと思っています。  
 
-## 実際に実行してみる
+## 実際に実行してみる -> section1
 上記の説明でPythonの魅力は伝わった(?)と思うので、ここでは実際にコードを書いて実行してみようと思います。ここで準備していただきたいのがGoogleColaboratoryです。  
 新規 > その他 からファイルを作成できるのですが、現在はGoogleColaboratoryの項目がないと思います。そのため、新規 > その他 > アプリを追加　を押し、Colaboratoryを検索してインストールしてください。インストールが終わると 新規 > その他 にGoogleColaboratoryが追加されていると思います。こちらからファイルを作成すればそこにコードを書いて実行できます。  
 
