@@ -30,12 +30,12 @@ s = input()
 n = int(input())
 
 #入力
-#ab, cd, ef
+#ab cd ef
 s_list = input().split()
 s1, s2, s3 = input().split()
 
 #入力
-#12, 34, 56
+#12 34 56
 n_list = list(map(int, input().split()))
 n1, n2, n3 = map(int, input().split())
 

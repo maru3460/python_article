@@ -51,7 +51,34 @@ for i in range(10):#指定された数の配列のようなものを返す関数
 ```
 文字が少なくてわかりやすいです。  
 
-以上からわかるように、PythonはJavaよりも少ないコードでいろいろなことができます。文字数が多くなるとそれだけでわかりずらくなってしまうため、とても初心者向きの言語だと考えています。
+以上からわかるように、PythonはJavaよりも少ないコードでいろいろなことができます。文字数が多くなるとそれだけでわかりずらくなってしまうため、とても初心者向きの言語だと考えています
+
+### 書き方の違い
+Javaでは文末にセミコロン(;)が必要でしたが、Pythonでは必要ないです。また、文のまとまりを区切るのが波カッコ({})ではなくインデントです。
+```java
+public class HelloWorld {
+
+	public static void main(String[] args) {		
+	System.out.println("Hello, World!");
+	
+				for(int i=0; i < 10; i++) {
+System.out.println(i);
+									}
+	}
+}
+```
+```python
+print('Hello, World!')
+
+for i in range(10):
+	print(i)
+
+#IndentationError: unexpected indent
+for i in range(10):
+    print(i)
+        print(i)
+```
+いちいちセミコロンや波カッコを書くことのわずらわしさから解放されます。ただし、インデントが崩れると意味が変わってしまうので気を付けてください。
 
 ### 実行の手軽さ
 知っての通りJavaはコンパイル型言語であり、実行するためにはコンパイルという手順を踏む必要があります。一方でPythonはインタプリタ型言語です。ソースコードを指定してあげれば実行できます。  
